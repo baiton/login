@@ -1,0 +1,35 @@
+body{
+  background-color: lightgray;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+main{
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-top: 50px;
+}
+
+button{
+  background-color: lightgray;
+  border: none;
+  height: 25px;
+}
+
+input{
+  margin: 10px;
+}
+
+form{
+  display: flex;
+  align-items: center;
+}
+
+.text-fields{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
