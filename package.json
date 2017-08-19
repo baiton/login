@@ -4,6 +4,7 @@
   "description": "",
   "main": "dal.js",
   "dependencies": {
+    "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "express-session": "^1.15.5",
     "mustache": "^2.3.0",

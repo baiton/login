@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="utf-8">
-    <title>login</title>
-  </head>
-  <body>
+
+<head>
+  <link rel="stylesheet" href="./styles.css">
+  <meta charset="utf-8">
+  <title>login</title>
+</head>
+
+<body class="login-bg">
+  <section>
+    <h1>Be our Guest!</h1>
     <main>
       <form class="" action="/login" method="post">
+        <article class="guest-info">
+          <div class="guest-pass">
+            <p>Username: guest</p>
+            <p>Password: password</p>
+          </div>
         <div class="text-fields">
           <input type="text" name="username" placeholder="Username">
           <input type="password" name="password" placeholder="Password">
         </div>
-        <button type="submit" name="button">Login</button>
+      </article>
+        <input class="button" type="submit" name="submit" value="Login">
       </form>
     </main>
+  </section>
+</body>
 
-  </body>
 </html>

@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="./styles.css">
     <meta charset="utf-8">
     <title>home</title>
   </head>
   <body>
-    {{#userArr}}
-    <h1>Welcome {{username}}</h1>
-    {{/userArr}}
+    {{#isAuthenticated}}
+      {{>admin}}
+      <a href="/loggedout">Logout</a>
+    {{/isAuthenticated}}
+    {{^isAuthenticated}}
+      {{>welcomeBack}}
+      <a href="/login">Login</a>
+    {{/isAuthenticated}}
 
   </body>
 </html>

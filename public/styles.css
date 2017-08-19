@@ -1,15 +1,19 @@
 body{
-  background-color: lightgray;
+  margin: 0;
+  background-color: #05171A;
   font-family: sans-serif;
+  color: white;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 main{
-  background-color: lightgreen;
+  border-radius: 10px;
+  background-color: #A44935;
   display: flex;
   justify-content: center;
-  width: 50%;
+  width: 60%;
   margin-top: 50px;
 }
 
@@ -20,7 +24,10 @@ button{
 }
 
 input{
+  font-size: 14pt;
   margin: 10px;
+  border-radius: 10px;
+  border-style: none;r
 }
 
 form{
@@ -29,6 +36,42 @@ form{
 }
 
 .text-fields{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.login-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a{
+  position: fixed;
+  top: 25px;
+  right: 25px;
+}
+
+.login-bg{
+  background-image: url(https://a.dilcdn.com/bl/wp-content/uploads/sites/25/2015/04/Plates.gif);
+background-size: cover;
+}
+
+section{
+  background-color: rgba(164, 73, 53, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.guest-info{
+  display: flex;
+  justify-content: center;
+}
+
+.guest-pass{
   display: flex;
   flex-direction: column;
   margin: 10px;
